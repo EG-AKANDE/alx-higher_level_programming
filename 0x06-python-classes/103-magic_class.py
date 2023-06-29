@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define a MagicClass."""
 
+
 import math
 
 class MagicClass:
@@ -22,6 +23,5 @@ class MagicClass:
         return (self.__radius ** 2 * math.pi)
 
     def circumference(self):
-        """Return The circumference of the MagicClass."""
+        """Return the circumference of the MagicClass."""
         return (2 * math.pi * self.__radius)
-
