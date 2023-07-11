@@ -1,17 +1,8 @@
 #!/usr/bin/python3
 """Add all arguments to a Python list and save them to a file."""
 import sys
-import json
-
-def save_to_json_file(my_obj, filename):
-    """Save an object to a JSON file."""
-    with open(filename, 'w') as file:
-        json.dump(my_obj, file)
-
-def load_from_json_file(filename):
-    """Load an object from a JSON file."""
-    with open(filename, 'r') as file:
-        return json.load(file)
+from 5-save_to_json_file import save_to_json_file
+from 6-load_from_json_file import load_from_json_file
 
 if __name__ == "__main__":
     try:
